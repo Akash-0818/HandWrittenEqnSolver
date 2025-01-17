@@ -13,3 +13,12 @@ class DataValidationConfig:
     root_dir: Path
     unzip_data_dir: Path
     status_file: str
+
+@dataclass(frozen=True)
+class DataTransformationConfig:
+    root_dir: Path
+    data_path: Path
+    train_data_path: Path
+    train_labels_path: Path
+    test_data_path: Path 
+    test_labels_path: Path
