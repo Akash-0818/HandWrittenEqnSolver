@@ -171,3 +171,7 @@ cython_debug/
 .pypirc
 
 your_notes.txt
+
+research/notebooks/*
+
+artifacts/*
