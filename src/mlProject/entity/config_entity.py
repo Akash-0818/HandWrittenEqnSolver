@@ -22,3 +22,12 @@ class DataTransformationConfig:
     train_labels_path: Path
     test_data_path: Path 
     test_labels_path: Path
+
+@dataclass(frozen=True)
+class ModelTrainerConfig:
+    root_dir: Path
+    train_data_path: Path
+    train_labels_path: Path
+    test_data_path: Path 
+    test_labels_path: Path
+    model_name: str
