@@ -6,23 +6,23 @@ from mlProject.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeli
 
 
 try:
-    STAGE_NAME = "data ingestion stage"
-    logger.info(f">>>>stage {STAGE_NAME} started")
-    obj = DataIngestionTrainingPipeline()
-    obj.main()
-    logger.info(f">>>>stage {STAGE_NAME} ended")
+    # STAGE_NAME = "data ingestion stage"
+    # logger.info(f">>>>stage {STAGE_NAME} started")
+    # obj = DataIngestionTrainingPipeline()
+    # obj.main()
+    # logger.info(f">>>>stage {STAGE_NAME} ended")
 
-    STAGE_NAME = "data validation stage"
-    logger.info(f">>>>stage {STAGE_NAME} started")
-    obj = DataValidationTrainingPipeline()
-    obj.main()
-    logger.info(f">>>>stage {STAGE_NAME} ended")
+    # STAGE_NAME = "data validation stage"
+    # logger.info(f">>>>stage {STAGE_NAME} started")
+    # obj = DataValidationTrainingPipeline()
+    # obj.main()
+    # logger.info(f">>>>stage {STAGE_NAME} ended")
 
-    STAGE_NAME = "data transformation stage"
-    logger.info(f">>>>stage {STAGE_NAME} started")
-    obj = DataTransformationTrainingPipeline()
-    obj.main()
-    logger.info(f">>>>stage {STAGE_NAME} ended")
+    # STAGE_NAME = "data transformation stage"
+    # logger.info(f">>>>stage {STAGE_NAME} started")
+    # obj = DataTransformationTrainingPipeline()
+    # obj.main()
+    # logger.info(f">>>>stage {STAGE_NAME} ended")
 
     STAGE_NAME = "model trainer stage"
     logger.info(f">>>>stage {STAGE_NAME} started")
